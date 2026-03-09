@@ -1,0 +1,23 @@
+# robots.txt for nycpsy-mirror GitHub Pages site
+# This mirror site is intended to be fully indexed by AI and web crawlers.
+
+User-agent: *
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+# Anthropic
+User-agent: anthropic-ai
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://nycpsy.github.io/nycpsy/sitemap.xml
